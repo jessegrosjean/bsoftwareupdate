@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin
+	id="com.blocks.BSoftwareUpdate"
+	label="Software Update"
+	version="1.0.0"
+	info="Blocks Software Update">
+
+	<requirement bundle="com.blocks.Blocks" version="1.0.0" />
+	<requirement bundle="com.blocks.BUserInterface" version="1.0.0" />
+	<requirement bundle="com.blocks.Blocks" version="1.0.0" />
+		
+	<extension point="com.blocks.BUserInterface.menus" processOrder="3">
+		<menu id="com.blocks.BUserInterface.menus.main.application">
+			<menuitem title="%Check For Updates..." id="checkForUpdates" action="checkForUpdates:" location="group:preferencesGroup" target="BSoftwareUpdateController sharedInstance" />
+		</menu>
+	</extension>
+	
+</plugin>
