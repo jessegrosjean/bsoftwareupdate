@@ -6,7 +6,6 @@
 //  Copyright 2007 __MyCompanyName__. All rights reserved.
 
 #import "BSoftwareUpdateController.h"
-#import "SUUpdater.h"
 
 
 @implementation BSoftwareUpdateController
