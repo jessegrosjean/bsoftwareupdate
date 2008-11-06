@@ -35,4 +35,9 @@
 	[sparkleUpdater checkForUpdates:sender];
 }
 
+#pragma mark Lifecycle Callback
+
+- (void)applicationLaunching {
+}
+
 @end
