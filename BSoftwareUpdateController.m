@@ -24,7 +24,7 @@
 
 - (id)init {
 	if (self = [super init]) {
-		sparkleUpdater = [[SUUpdater alloc] init];
+		sparkleUpdater = [SUUpdater sharedUpdater];
 	}
 	return self;
 }
